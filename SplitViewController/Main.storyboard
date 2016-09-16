@@ -523,8 +523,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="PatientList" id="Zdf-7t-Un8">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="ug6-5Y-V0a">
-                            <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="edit" id="TEP-vp-BiY">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="editBtn:" destination="7bK-jq-Zjz" id="huY-VQ-RjQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="K6H-uc-oAs">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="addBtn:" destination="7bK-jq-Zjz" id="fVX-YK-hIu"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>

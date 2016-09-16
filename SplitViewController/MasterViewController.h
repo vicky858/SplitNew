@@ -20,6 +20,8 @@
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
+- (IBAction)editBtn:(id)sender;
+- (IBAction)addBtn:(id)sender;
 
 @end
 

@@ -217,4 +217,44 @@
     
     
 }
+- (IBAction)editBtn:(id)sender {
+    
+   
+
+    
+}
+
+- (IBAction)addBtn:(id)sender {
+    
+    
+}
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
